@@ -1,0 +1,83 @@
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+
+  border-bottom-width: 1px   ;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(216, 216, 216);
+}
+.left-sec{
+  display: flex;
+  align-items: center;
+}
+.ham-icon{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px
+}
+.yt-icon{
+  height: 20px;
+}
+.search{
+  display: flex;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.search input{
+  flex: 1;
+  height: 36px;
+  border-color: rgb(172, 172, 172);
+  border-width: 1px;
+  border-style: solid;
+  width: 0;
+}
+.search input::placeholder{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 12px;
+  font-size: 16px;
+}
+.btn1{
+  height: 40px;
+  width: 60px;
+  margin-left: -1px;
+  background-color: rgb(218, 216, 216);
+  border: 1px solid rgb(165, 163, 163);
+  margin-right: 20px;
+}
+.btn1 img{
+  margin-top: 5px;
+  height: 25px;
+}
+.btn2{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.btn2 img{
+  height: 24px;
+}
+.right-sec{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.right-sec img{
+  height: 26px;
+  margin-right: 40px;
+}
